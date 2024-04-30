@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.contianer{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+
+}
+
+#title {
+    font-family: "Amatic SC", sans-serif ;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 45px;
+    color: goldenrod;
+    margin-block: 30px;
+}
+
+.inner{
+    margin-bottom: 15px;
+}
+
+.inner img {
+    width: 50%;
+    transition: all 0.1s linear;
+}
+
+.inner:hover img {
+    transform: translate(5px,5px);
+    scale: 1.07;
+}
+
+
+.inner p span {
+    color: goldenrod;
+   
+}
+
+.inner p {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 38px;
+    color: #1e1e1e;
+    margin-bottom: 25px;
+}
+
+
+#recommendation img {
+    margin-block: 40px;
+}
+
+#eatingName{
+    font-family: "Cambo", serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 38px;
+    color: #1e1e1e;
+    
+    
+}

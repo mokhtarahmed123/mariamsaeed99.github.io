@@ -1,0 +1,31 @@
+@media screen and (max-width : 640px) {
+    ul{
+        opacity: 0;
+    }
+
+    .must-see-place{
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (min-width:640px) and (max-width:1024px) {
+    ul{
+        opacity: 0;
+    }
+
+    .must-see-place{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    ul{
+        opacity: 1;
+    }
+    
+}
+
+ 

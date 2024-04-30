@@ -1,0 +1,192 @@
+.home-page {
+       
+    background-image: url(https://www.ancient-egypt-online.com/images/ancient-egypt-online.jpg);
+    background-position: 20% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+}
+
+
+h1 span {
+font-size: 80px;
+color: goldenrod;
+} 
+h3 {
+text-align: center;
+color: #666;
+font-size: 20px;
+
+}
+h1 {
+color: #666;
+font-size: 20px;
+text-align: center;
+
+}
+h2 {
+color: #B99470;
+font-size: 40px;
+text-indent: 300px;
+
+
+}
+* {
+background-color: #E1F7F5; 
+
+};
+.x {
+color: #B99470;
+font-size: 40px;
+text-indent: 300px;
+}
+.v {
+text-align: center;
+color: #666;
+font-size: 20px;
+}
+span {
+font-size: 30px;
+color: goldenrod;
+}
+.l {
+text-align: center;
+color: #666;
+font-size: 20px;
+}
+.n {
+text-align: center;
+color: #666;
+font-size: 20px;
+
+}
+
+
+
+.main-btn {
+color: white;
+background-color: goldenrod;
+text-decoration: none;
+font-size: 1.1em;
+font-weight: 600;
+display: inline-block;
+padding: 0.9375em;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 40px;
+transition: 0.9s ease;
+
+
+}
+
+.main-btn:hover {
+background-color: #B99470;
+transform: scale(1.1);
+}
+
+
+
+
+.b {
+text-align: center;
+font-size: 40;
+color: goldenrod;
+}
+.more-inf{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+background-color: white;
+box-shadow: 0 0 20px gray;
+width: 60%;
+position: absolute;
+left: 20%;
+overflow: hidden;
+}
+
+
+.details{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap 20;
+width: 90%;
+margin-bottom: 20px;
+
+}
+
+.details img {
+width:50px;
+height: 50px;
+border: 100px ;
+border-radius: 50px;
+margin-right: 10px;
+}
+.details img:hover{
+scale: 1.1;
+}
+.p1 {
+margin-top: 12;
+width: 300;
+height: 300;
+background-image: url(https://assets.editorial.aetnd.com/uploads/2018/01/the-sphinx-gettyimages-1183584133.jpg?width=1920&height=960&crop=1920%3A960%2Csmart&quality=75&auto=webp);
+background-size: cover;
+float: left;
+margin-left: 100;
+margin-right: 10;
+}
+.p2 {
+margin-top: 12;
+width: 300;
+height: 300;
+background-image: url(https://media.istockphoto.com/id/1150297718/photo/view-of-the-sphinx-egypt-the-giza-plateau-in-the-sahara-desert.jpg?s=612x612&w=0&k=20&c=FECysm_6YxVbHlsEPlFFdsLj82tNJMrEaEntUK2iHPY=);
+background-size: cover;
+float: left;
+margin-left: 50;
+margin-right: 10;
+}
+.p3 {
+margin-top: 12;
+width: 300;
+height: 300;
+background-image: url(https://media.istockphoto.com/id/531252132/photo/giza-pyramids-and-sphinx-in-cairo-egypt.jpg?s=612x612&w=0&k=20&c=BmzHSalH_c691xl0sB27cn7Z8F23lJlXnOgwsehxqKk=);
+background-size: cover;
+float: left;
+margin-left: 30; 
+margin-right: 50;
+
+
+
+} 
+.p4 {
+margin-top: 12;
+width: 300;
+height: 300;
+background-image: url(https://media.istockphoto.com/id/157192504/photo/the-sphinx-and-pyramid-of-khafre-giza-egypt.jpg?s=612x612&w=0&k=20&c=wohiK2lT3_Dt3A7el-CQTOkBvT_Tqnc3Z-AMkaKchWg=);
+background-size: cover;
+float: left;
+margin-left: 30;
+margin-right: 100;
+margin-bottom: 800px;
+
+
+
+}
+
+
+.p1:hover {
+transform: scale(1.1);
+}
+
+.p2:hover {
+transform: scale(1.1);
+}
+
+.p3:hover {
+transform: scale(1.1);
+}
+
+.p4:hover {
+transform: scale(1.1);
+}

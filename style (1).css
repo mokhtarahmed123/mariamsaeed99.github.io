@@ -1,0 +1,403 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    position: relative;
+}
+
+body ::selection {
+    background-color: goldenrod;
+}
+
+
+.side-navbar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    z-index: 999999999999;
+    position: fixed;
+    top: 20%;
+    right: 0;
+
+    background-color:white;
+    box-shadow: 0 0 50px gray;
+    width: 140px;
+    
+}
+
+.side-navbar img {
+    width: 35px;
+    margin-bottom: 20px;
+
+    
+    
+}
+
+.side {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-bottom: 10px;
+    transition: all 0.1s linear;
+}
+
+.side:hover {
+    transform: translate(2px,2px);
+}
+
+.side img {
+    width: 25px;
+    margin-right:10px;
+    transition: all 0.1s linear;
+}
+
+
+.side {
+    display: none;
+}
+
+/* .side:hover {
+    opacity: 1;
+} */
+
+.side-navbar:hover .side{
+        display: flex;
+
+}
+
+.side p a {
+    color: black;
+}
+
+.side:hover p a 
+{
+    font-weight: 700;
+    color: goldenrod;
+}
+
+
+
+
+h1 {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    font-size: 85px;
+    text-align: center;
+    padding: 0;
+}
+
+h1 span {
+    color: goldenrod;
+
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* justify-content: space-around; */
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0 0 40px gray;
+    z-index: 9999999999;
+    margin-bottom: 300px;
+
+
+}
+
+nav {
+    position: sticky;
+    margin-top: 20px;
+    margin-right: 20px;
+
+
+}
+
+ul li a {
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+    color: black;
+    font-size: 20px;
+    font-family: "Slabo 27px", serif;
+}
+
+ul {
+    list-style: none;
+    background-color: DAC0A3;
+    box-shadow: 0 0 10px gray;
+
+
+}
+
+ul li {
+    position: relative;
+    display: inline-block;
+
+}
+
+
+ul li ul.inner-list li {
+    display: block;
+
+}
+
+
+ul li ul.inner-list {
+    width: 106%;
+    background-color: EADBC8;
+    position: absolute;
+    display: none;
+    z-index: 999999999;
+}
+
+ul li ul.inner-list li a {
+    margin-inline: -10%;
+}
+
+
+ul li:hover ul.inner-list {
+    display: block;
+}
+
+
+ul li a:hover {
+
+    background-color: F8F0E5;
+}
+
+.monuments {
+    font-family: "Montserrat", sans-serif;
+    font-size: 63px;
+    font-weight: 750;
+    line-height: 65px;
+    color: black;
+    padding-top: 100px;
+    margin-block: 50px;
+    text-align: center;
+    
+}
+
+
+.must-see-sites {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 350;
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 15px;
+    padding-left: 30px;
+}
+
+.must-see {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.must-see-place {
+    width: 30%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 20px gray;
+    margin-bottom: 40px;
+
+}
+
+.must-see-place a {
+    color: red;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.must-see-place img {
+    width: 100%;
+    transition: all 0.1s linear;
+    scale: 1;
+}
+
+.must-see-place:hover {
+    scale: 1.1;
+
+}
+
+.title {
+    color: gold;
+    margin-block: 15px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 750;
+    font-size: 20px;
+    line-height: 28px;
+
+
+}
+
+.details {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 350;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+
+
+.other-places-of-interest{
+    color: #0a0a0a;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 350;
+    font-size: 40px;
+    line-height: 56px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+   
+}
+
+.social-media{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-inline: auto;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 0 25px goldenrod;
+    margin-block: 50px;
+    position: relative;
+
+
+}
+
+img[ alt="design-logo"]{
+    width: 110px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.accounts{
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 600;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 25px;
+
+}
+
+
+.downbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.downbar a {
+    width: 25%;
+    margin-top: 25px;
+    margin-right:20px;
+    /* margin-bottom: 50px; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    color: black;
+}
+
+.follow-us {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.social-media-inner{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+    height: fit-content;
+    overflow: hidden;
+    padding: 10px;
+
+}
+.social-media-inner:hover {
+    border: 3px solid white;
+    box-shadow: 0 0 15px gray;
+}
+
+.social-media-inner img {
+    width: 40px;
+    margin-right: 15px;
+    /* transition: all 0.1s linear; */
+}
+
+
+
+
+.social-media-des{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.rights{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 16px;
+    color: black;
+    margin-block: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.word {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: goldenrod;
+    
+
+}
+
+#des{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    
+
+}
+
+#des a {
+    color: #0a0a0a;
+}
+
+
+
+
+
+

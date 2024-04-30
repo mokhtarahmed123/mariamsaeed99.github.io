@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-inline: 25PX;
+ 
+}
+
+.title-page {
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 700;
+    line-height: 32px;
+    font-size: 85px;
+    color: black;
+    margin-top: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.title span {
+    border-bottom: 6px solid goldenrod;
+}
+
+
+#name {
+    color: #1e1e1e;
+    font-family: "Assistant", sans-serif;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+.feedback-box {
+    width: 30%;
+    box-shadow: 0 0 15px gray;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-bottom: 40px;
+
+}
+
+
+.feedback-icone img{
+    width: 120px;
+    height: 120px;
+    margin-block: 20px;
+    margin-inline: 40%;
+    border-radius: 100px;
+
+}
+.rate-stars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-inline: auto;
+}
+
+.rate-stars img {
+    width: 20px;
+    margin-right: 5px;
+    transition: all 0.1s linear;
+    margin-bottom: 8px;
+}
+.rate-stars img:hover {
+    transform: translate(2px,2px);
+}
+
+.details {
+    color: #4e4e4e;
+    font-family: "Assistant", sans-serif;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    padding-inline: 10px;
+}
+
+
+.inner-main-contact {
+    background-color: white;
+   
+   
+   
+}
+
+.send-mess{
+    color: #1e1e1e;
+    font-family: "Assistant", sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 400;
+    
+}
+
+.send-mess span {
+    border-bottom: 5px solid goldenrod;
+}
+
+
+button[type="submit"]{
+    background-color: goldenrod;
+    margin-inline: 40%;
+}
+
+.lorem-contact {
+    color: #4e4e4e;
+    font-family: "Assistant", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.icone img {
+    width: 17px;
+    margin-right: 5px;
+}
+
+.location{
+    color: #4e4e4e;
+    font-family: "Assistant", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+
+.facebook img {
+    width: 40px;
+    padding: 7px;
+}
+
+
+.facebook {
+    width: 50px;
+    height: 50px;
+    border: 6px solid goldenrod;
+    border-radius: 50px;
+    margin-right:7px ;
+    background-color: white;
+}
+
+.facebook:hover {
+    background-color: goldenrod;
+    border: 6px solid #FFF2D7 ;
+}
+
+
+
+
+.inner-main-contact {
+    background-color: rgb(233, 233, 233);
+}
+
+
+
+
+
+
+
+
+
+.service-box {
+    background-color: white;
+    box-shadow: 0 0 5px rgb(184, 184, 184);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+
+}
+
+
+
+.title {
+    color: #1e1e1e;
+    font-family: "Assistant", sans-serif;
+    font-size: 27px;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+
+
+
+.continue-services {
+    background-image: linear-gradient(rgba(218, 165, 32,0.9), rgba(218, 165, 32,0.9)),
+        url(DevFolio/counters-bg.jpg);
+        margin-bottom: 50px;
+}
+
+
+.inner-service img {
+    width: 70px;
+    padding: 15px;
+    border: 10px solid white;
+    border-radius: 50px;
+    margin-inline: auto;
+    margin-top: 50px;
+}
+
+.number {
+    color: #ffff;
+    font-family: "Assistant", sans-serif;
+    font-size: 38px;
+    line-height: 48px;
+    font-weight: 500;
+}
+
+.u-number {
+    color: #ffff;
+    font-family: "Assistant", sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+
+
+
+

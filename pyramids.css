@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body ::selection {
+    background-color: goldenrod;
+}
+
+.home-page {
+    background-image: url(https://www.introducingegypt.com/f/egipto/egipto/guia/piramides-giza.jpg);
+    background-position: center center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 63px;
+    font-weight: 750;
+    line-height: 66px;
+    color: goldenrod;
+    margin-bottom: 15px;
+}
+
+p{
+    color: #666666;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 350;
+    line-height: 32px;
+    
+}
+
+
+.f-inner-span{
+    color: goldenrod;
+
+}
+
+.sec-inner-span{
+    color: #666666;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+
+.inner-des{
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+.inner-des p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 350;
+    line-height: 24px;
+
+} 
+
+.the-pyramids p {
+    font-family: "PT Serif", serif;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    color:#1c1a1a;
+
+}
+
+.old-kingdom span {
+    color: goldenrod;
+}
+
+.inner-des .important-des {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    color: #666666;
+
+}
+
+.dotted-title p{
+    font-family: "PT Serif", serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    color:red;
+}
+.dotted-title p:hover {
+    color: rgb(231, 12, 12);
+}
+
+
+.more-inf{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0 0 20px gray;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    overflow: hidden;
+}
+
+
+.details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-bottom: 20px;
+
+}
+
+.details img {
+    width:50px;
+    height: 50px;
+    border: 100px ;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.details img:hover{
+    scale: 1.1;
+}
+
+.f-side-title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 350;
+    line-height: 28px;
+    color :#1c1a1a;
+}
+
+
+.sec-side-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 22px;
+    color :goldenrod;
+    margin-bottom: 5px;
+
+}

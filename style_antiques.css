@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;    
+    color: rgb(50, 44, 43);
+}
+::selection {
+    background:  rgb(175, 130, 96);
+    color: white;
+}
+.header h1{
+    text-align: center;
+    background-color: rgb(109, 41, 50);
+    font-size: 400%;
+    color: white !important;
+}
+.main{
+    background-color: white;
+    margin-top: 100px;
+}
+.intro{
+    text-align: left;
+    margin-bottom: 50px;
+}
+.intro h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.intro p{
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+.fo{
+    height: 250px;
+    width: 450px;
+    margin-left: 200px;
+    object-fit: fill;
+    object-position: center;
+    border: 5px solid rgb(175, 130, 96);
+    border-radius: 10px;
+    padding: 5px;
+}
+table, td{
+    margin:40px;
+    border-collapse: collapse;
+    border: 3px solid rgb(109, 41, 50);
+}
+td{
+background-color: rgb(228, 197, 158);
+text-align: center;
+width: 300px;
+}
+.sec h2{
+    margin-top: 90px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.sec p{
+    text-align: left;
+    margin-left: 100px;
+    width: 1250px;
+    margin-bottom: 10px;
+}
+.exp h2{
+    margin-top: 90px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.exp p{
+    display: inline-block;
+    width: 550px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+.gr{
+    height: 350px;
+    width: 300px;
+    margin-left: 250px;
+    object-fit: fill;
+    object-position: center;
+    border: 5px solid rgb(175, 130, 96);
+    border-radius: 10px;
+    padding: 5px;
+}
+.tour{
+    margin-left: 50px;
+}
+.tour p{
+    text-align:center;
+    margin-bottom: 20px;
+}
+.tour h2{
+    margin-top: 90px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+video{
+    border: 5px solid rgb(175, 130, 96);
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+.icon a{
+    font-size: 180%;
+    color: rgb(109, 41, 50);
+    margin-left: 350px;
+    margin-bottom: 70px;
+    transition: 0.15s;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.icon{
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.map iframe{
+    margin-left: 450px;
+    border: 5px solid rgb(175, 130, 96);
+    border-radius: 10px;
+    padding: 5px;
+}
+a:hover{
+   color: darkred;
+   background-color: rgb(228, 197, 158);
+}
+.map{
+    margin-bottom: 50px;
+}
